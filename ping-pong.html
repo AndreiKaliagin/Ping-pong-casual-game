@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>ping-long</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="top">
+        <input id="start" type="button" value="START" onclick="start()">
+        <div id="score"></div>
+        <p id="leftGoal">GOAL black</p>
+        <p id="rightGoal">GOAL red</p>
+    </div>
+
+    <div class="table">
+        <img src="https://i.ibb.co/2PNqT9n/png-transparent-tennis-balls-tennis-girl-tennis-sport-sphere-sports.png"
+            id="ball">
+        <p id="timerAfterGoal"></p>
+        <p id="timer321"></p>
+        <div id="racquetLeft"></div>
+        <div id="racquetRight"></div>
+    </div>
+
+    <div class="control">
+        <p>Black <br> UP: left shift <br> Down: left ctr</p>
+        <p style="color:red">Red <br> UP: arrow Up <br> Down: arrow Down</p>
+    </div>
+</body>
+<script src="ping-pong.js"></script>
+
+</html>
